@@ -33,7 +33,7 @@ public class Jan16One {
         PrintWriter pw = new PrintWriter("src/com/ioipractice/bronze/fout/promote.out");
         pw.println(platinumPromoted);
         pw.println(goldPromoted);
-        pw.print(silverPromoted);
+        pw.println(silverPromoted);
         pw.close();
     }
 }
