@@ -3,7 +3,7 @@
     Date: January 17th, 2022
     Problem: USACO 2016 January Contest, Bronze Problem 1. Promotion Counting
     Time Taken ~ 15.0ms
- */
+*/
 
 package com.ioipractice.bronze.solutions;
 

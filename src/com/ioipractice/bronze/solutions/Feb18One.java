@@ -3,7 +3,7 @@
     Date: January 17th, 2022
     Problem: USACO 2018 February Contest, Bronze Problem 1. Teleportation
     Time Taken ~ 12.0ms
- */
+*/
 
 package com.ioipractice.bronze.solutions;
 
