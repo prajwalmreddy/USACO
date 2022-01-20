@@ -13,7 +13,7 @@ import java.nio.charset.Charset;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 
-public class Feb18One {
+public class Teleport {
     public static void main(String[] args) throws IOException {
         byte[] fileBytes = Files.readAllBytes(Paths.get("src/com/ioipractice/bronze/fin/teleport.in"));
         String input = new String(fileBytes, Charset.defaultCharset());

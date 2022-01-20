@@ -14,7 +14,7 @@ import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.StringTokenizer;
 
-public class USO19One {
+public class Buckets {
     public static void main(String[] args) throws IOException {
         byte[] fileBytes = Files.readAllBytes(Paths.get("src/com/ioipractice/bronze/fin/buckets.in"));
         String input = new String(fileBytes, Charset.defaultCharset());
