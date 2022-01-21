@@ -46,7 +46,7 @@ public class Buckets {
         int distance = Math.abs(lake[1] - barn[1]) + Math.abs(lake[0] - barn[0]);
         int modifier = -1;
 
-        if ((rock[0] == barn[0] || rock[1] == barn[1]) && (rock[0] == lake[0] || rock[1] == lake[1])) {
+        if ((rock[0] == barn[0] && rock[0] == lake[0]) || (rock[1] == barn[1] && rock[1] == lake[1])) {
             modifier += 2;
         }
 
