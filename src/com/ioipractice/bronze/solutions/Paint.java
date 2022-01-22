@@ -7,10 +7,7 @@
 
 package com.ioipractice.bronze.solutions;
 
-import java.io.BufferedReader;
-import java.io.FileReader;
-import java.io.IOException;
-import java.io.PrintWriter;
+import java.io.*;
 import java.util.StringTokenizer;
 
 public class Paint {
@@ -28,17 +25,13 @@ public class Paint {
         int c = Integer.parseInt(tokens1.nextToken());
         int d = Integer.parseInt(tokens1.nextToken());
 
-        int painted = 0;
-
-        if (d > a) {
-            painted = b - c;
-        } else {
-            painted = Math.abs(d - c) + Math.abs(b - a);
-        }
+        int total = (b - a) + (d - c);
+        int intersected = Math.max(Math.min(b, d) - Math.max(a, c), 0);
+        total -= intersected;
 
 
         PrintWriter pw = new PrintWriter("src/com/ioipractice/bronze/fout/paint.out");
-        pw.println(painted);
+        pw.println(total);
         pw.close();
     }
 }
